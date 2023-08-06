@@ -11,7 +11,7 @@ A web application for notetaking using GET, POST, and DELETE routes to communica
 
 [ThalVal](https://github.com/ThalVal)
 
-[Challenge-Eleven_NoteTaker]()
+
 
 ## Link to Deployed Page
 
