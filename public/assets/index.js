@@ -66,7 +66,7 @@ const renderActiveNotes = () => {
   }
 };
 
-const handleNotesSave = () => {
+const handleNoteSave = () => {
   const newNotes = {
     title: notesTitle.value,
     text: notesText.value,
@@ -175,7 +175,7 @@ const renderNotesList = async (notes) => {
 const getAndRenderNotes = () => getNotes().then(renderNotesList);
 
 if (window.location.pathname === '/notes') {
-  saveNotesBtn.addEventListener('click', handleNotesSave);
+  saveNotesBtn.addEventListener('click', handleNoteSave);
   newNotesBtn.addEventListener('click', handleNewNotesView);
   notesTitle.addEventListener('keyup', handleRenderSaveBtn);
   notesText.addEventListener('keyup', handleRenderSaveBtn);
