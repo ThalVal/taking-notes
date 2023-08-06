@@ -11,6 +11,8 @@ A web application for notetaking using GET, POST, and DELETE routes to communica
 
 [ThalVal](https://github.com/ThalVal)
 
+https://taking-notess-1f79b2668f1a.herokuapp.com/
+
 
 
 ## Link to Deployed Page
